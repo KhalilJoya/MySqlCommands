@@ -56,8 +56,8 @@ create table `Course` (
 create table `StudentCourse` (
 `StudentCourseid`integer unsigned primary key not null auto_increment ,
 `Studentid` integer not null,
-`Courseid` integer not null
-
+`Courseid` integer not null ,
+primary key (Studentid,Courseid)
 )
 
 ```
@@ -81,12 +81,12 @@ create table `Fees` (
 ```
 create table `Result`(
 `Resultid` integer unsigned primary key not null auto_increment ,
-
 `TotalMarks` integer not null,
 `ObtainedMarks` integer not null,
 `ResultPassAndFail` varchar(155) not null,
 `Studentid` integer not null,
-`Testid` integer not null
+`Testid` integer not null,
+primary key (Studentid,Testid)
 )
 
 ```
