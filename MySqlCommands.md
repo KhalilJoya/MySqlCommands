@@ -1,18 +1,18 @@
 # MySql
 
-### create database
+## create database
 
 ```sql
 create database InstitueManagement;
 ```
 
-### use
+## use
 
 ```sql
 use InstitueManagement;
 ```
 
-### Students Table
+## Students Table
 
 ```sql
 create table `Student`(
@@ -25,7 +25,7 @@ create table `Student`(
 );
 ```
 
-### Address Table
+## Address Table
 
 ```sql
 CREATE TABLE `Address`(
@@ -40,7 +40,7 @@ FOREIGN KEY (StudentId) REFERENCES student(studentid)
 );
 ```
 
-### Course Table
+## Course Table
 
 ```sql
 create table `Course` (
@@ -53,17 +53,17 @@ create table `Course` (
 )
 ```
 
-### StudentCourse Table
+## StudentCourse Table
 
 ```sql
 create table `StudentCourse` (
-`Studentid` integer unique,
-`Courseid` integer unique,
+`Studentid` integer ,
+`Courseid` integer ,
 primary key (Studentid,Courseid)
 );
 ```
 
-### Fees Table
+## Fees Table
 
 ```sql
 create table `Fees` (
@@ -75,7 +75,7 @@ FOREIGN KEY (StudentId) REFERENCES student(studentid)
 )
 ```
 
-### Result Table
+## Result Table
 
 ```sql
 create table `Result`(
@@ -88,7 +88,7 @@ primary key (Studentid,Testid)
 )
 ```
 
-### Test Table
+## Test Table
 
 ```sql
 create table `Test`(
@@ -102,7 +102,7 @@ FOREIGN KEY (StudentId) REFERENCES student(studentid)
 )
 ```
 
-### Employee Table
+## Employee Table
 
 ```sql
 create table `Employee`(
@@ -115,7 +115,7 @@ create table `Employee`(
 );
 ```
 
-### EmployeeType Table
+## EmployeeType Table
 
 ```sql
 create table `EmployeeType` (
@@ -124,7 +124,7 @@ create table `EmployeeType` (
 );
 ```
 
-### Salary Table
+## Salary Table
 
 ```sql
 create table `Salary`(
@@ -137,7 +137,7 @@ create table `Salary`(
 );
 ```
 
-### Expenses Table
+## Expenses Table
 
 ```sql
 create table `Expenses` (
@@ -148,7 +148,7 @@ create table `Expenses` (
 );
 ```
 
-### All Question queries
+## All Question queries
 
 ### 1. Name of all students jinhone abi tak koi fees deposit ni ki
 
