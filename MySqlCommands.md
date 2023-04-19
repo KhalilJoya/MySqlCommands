@@ -252,7 +252,15 @@ GROUP BY Course.CourseName, Course.CourseStartDate, Course.ClassTime;
 
 ### 16. Kaunsa course hai jisme koi admission ni hua hai
 
+```sql
+
+```
+
 ### 17. Sbse jyada expense from expense table kis chiz ke liye hua hai
+
+```sql
+
+```
 
 ### 18. Employee list print krvani hai unki total paid salary ke descending order me
 
@@ -262,9 +270,21 @@ GROUP BY Course.CourseName, Course.CourseStartDate, Course.ClassTime;
 
 ### Rehna Peon 20000
 
+```sql
+
+```
+
 ### 19. Course table ko alter krna hai aur usme ek teacherid column add krna hai jo ki foreign key hogi
 
+```sql
+
+```
+
 ### 20. Kaunse course me kaunsa teacher pdhata hai uski detail print krvani hai CourseName CourseTime TeacherName
+
+```sql
+
+```
 
 ### 21. Student list print krvani hai unki total paid fees ke descending order me
 
@@ -274,7 +294,15 @@ GROUP BY Course.CourseName, Course.CourseStartDate, Course.ClassTime;
 
 ### Rehna HTML 20000
 
+```sql
+
+```
+
 ### 22. Kisi b year ka total profit/loss btana hai Total fees - (total salary + total expenses)
+
+```sql
+
+```
 
 ### 23. Student count list print krvani hai unki total batch count ke descending order me
 
@@ -284,6 +312,10 @@ GROUP BY Course.CourseName, Course.CourseStartDate, Course.ClassTime;
 
 ### HTML 10:00AM 10/01/2023 10/07/2023 40
 
+```sql
+
+```
+
 ### 24. Student list print krvani hai unki total student in pincode ke descending order me
 
 ### 302012 Jhotwara 20
@@ -292,9 +324,17 @@ GROUP BY Course.CourseName, Course.CourseStartDate, Course.ClassTime;
 
 ### 304013 Sikar 12
 
+```sql
+
+```
+
 ### 25. Ek view bnana hai.
 
 ### StudentName Mobie Email CourserName CourseStartDate CourseEndDate Time TotalFees AvgMarks Address(plotno, colony, city, state, pincode)
+
+```sql
+
+```
 
 ### 26. Ek view result pr bnana hai
 
@@ -302,7 +342,15 @@ GROUP BY Course.CourseName, Course.CourseStartDate, Course.ClassTime;
 
 ### Sajid 945655445 500 400 80 1
 
+```sql
+
+```
+
 ### 27. Vo student jinhone koi b fees jama ni krayi hai unko delete kr dena hai student table se Aur iske child records Address, Result tables me hai vo vha se b delete krna hai
+
+```sql
+
+```
 
 ### 28. Expenses table se monthly expenses descending order me btane hai
 
@@ -312,6 +360,18 @@ GROUP BY Course.CourseName, Course.CourseStartDate, Course.ClassTime;
 
 ### 2022 Dec 12000
 
+```sql
+
+```
+
 ### 29. Kaunse teacher ke batch ke students ki performance sbse best hai
 
+```sql
+
+```
+
 ### 30. ek view bnana hai TeacherName BatchName BatchStartDate BatchEndDate Designation TotalFeesDepositByThisBatch TotalSalary
+
+```sql
+
+```
